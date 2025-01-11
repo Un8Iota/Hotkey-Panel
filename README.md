@@ -1,4 +1,7 @@
 # English description
+
+---
+
 # **Hotkey Panels** Add-on – Experimental Version
 
 ## Overview
@@ -106,7 +109,10 @@ Feel free to share your feedback and report any issues you encounter. With your 
 
 
 
-#French Description
+# French Description
+
+---
+
 # Add-on **Hotkey Panels** – Version Expérimentale
 
 ## Aperçu
