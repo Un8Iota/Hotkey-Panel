@@ -1,5 +1,112 @@
-# Hotkey-Panel
+# English description
+# **Hotkey Panels** Add-on – Experimental Version
 
+## Overview
+
+The **Hotkey Panels** add-on for Blender allows you to assign custom keyboard shortcuts to instantly open specific panels from your installed add-ons. This release is an **experimental** version, meaning it includes advanced features (such as direct panel activation and padding adjustments) but may also come with known bugs or stability issues.
+
+> **Note**: Since only the experimental version is provided here, you might encounter compatibility or reliability problems. It is recommended to use this version on non-critical projects or to make frequent backups.
+
+---
+
+## Key Features
+
+- **Custom Keyboard Shortcuts**  
+  Assign single keys or combinations (Ctrl/Alt/Shift) to quickly show your preferred panels.
+
+- **Flexible Shortcut Management**  
+  Enable or disable shortcuts with a single click in the add-on preferences. Duplicate or remove them easily.
+
+- **Automatic Panel Organization**  
+  Panels are categorized by the add-on they belong to, making them easier to find and select.
+
+- **Custom Icons and Names**  
+  Give each panel a display name and icon for quicker recognition.
+
+- **Import/Export Shortcuts**  
+  Save your entire configuration or share it with other users in one click. You can also import someone else’s configuration to save time.
+
+### Experimental Features Included
+
+- **Direct Activation (Pop-Up)**  
+  Instantly display certain panels under your mouse cursor without going through a context menu.  
+  - *Mouse Speed Control*: Adjust the mouse movement speed for smoother transitions.  
+  - *Panel Padding Adjustments*: Fine-tune the horizontal and vertical offsets of the displayed panels.
+
+- **Pie Menu**  
+  Access multiple panels via a circular menu, perfect for grouping different functionalities under one shortcut. Easily navigate multiple “pages” of panels if there are too many for a single menu.
+
+> **Warning**: These advanced features may sometimes behave unpredictably or fail to work correctly on certain systems or Blender versions (notably from 3.5 onwards).
+
+---
+
+## Installation
+
+1. **Download the add-on** (the `.py` file).
+2. Open Blender, then go to **`Edit > Preferences > Add-ons`**.
+3. Click on **`Install`** and select the downloaded `.py` file.
+4. Finally, enable the add-on from the add-ons list in the Preferences.
+
+---
+
+## Quick Start
+
+1. In the **Add-on Preferences**, create a new shortcut by clicking **“Add Hotkey Panel.”**  
+2. Name it and select the desired key(s) (e.g., `Q` with optional `Ctrl/Alt/Shift`).  
+3. Choose the **Execution Mode** among:
+   - **Standard**: Opens a simple context menu.
+   - **Pop Up** (Experimental): Displays the panel directly under the cursor.
+   - **Pie Menu** (Experimental): A circular menu suitable for multiple panels.
+4. Select one or more panels to link to the shortcut. If using **Pop Up**, you can also customize each panel’s name, icon, and margins (padding).
+5. Exit the Preferences and test the shortcut in the 3D View.
+
+---
+
+## Usage Examples
+
+- **Pop-Up Shortcut (Direct Activation)**  
+  Assign the `Q` key to instantly open a modeling options panel under the cursor.  
+  Adjust the panel’s X/Y padding so it appears exactly where you need it.
+
+- **Circular Pie Menu**  
+  Assign `Alt + M` to open a circular menu containing various texturing panels. Move between multiple “pages” by clicking on “Next/Previous Page” if there are more panels than can fit on one screen.
+
+---
+
+## Important Notes and Limitations
+
+- **Blender 3.5+ Compatibility**: Some users report issues with displaying panels under newer versions of Blender.  
+- **Panel Registration**: Certain panels (especially from third-party add-ons) may not be detected or may only partially display.  
+- **Mouse Speed Setting**: This feature may occasionally fail to apply correctly depending on your environment.  
+- **Panel Padding**: Vertical/horizontal adjustments may behave differently based on your OS or Blender version.
+
+---
+
+## Support and Community
+
+- **Blender Artists Forum**: Share feedback and bug reports on the [dedicated thread](https://blenderartists.org/t/hotkey-panels-feedback/1542369?u=soee).  
+- **Video Tutorials**: Check out upcoming YouTube videos for step-by-step demonstrations.  
+- **Other Links**: Visit my [Linktree] for all official resources and links.
+
+---
+
+## Conclusion
+
+The experimental version of the **Hotkey Panels** add-on can greatly speed up your workflow by providing ultra-fast access to your favorite panels. Although some bugs may occur, its innovative features (direct Pop-Up, Pie Menu, adjustable padding) offer new ways to organize and improve Blender’s ergonomics.
+
+Feel free to share your feedback and report any issues you encounter. With your input, the add-on will continue to evolve and become more stable.
+
+---
+
+**Created by**: Soee  
+**Version**: 2.5 (Experimental)  
+**License**: Community-based  
+**Download Link**: [To be inserted]
+
+
+
+
+#French Description
 # Add-on **Hotkey Panels** – Version Expérimentale
 
 ## Aperçu
