@@ -8,22 +8,22 @@
 
 ## Overview
 
-Hotkey Panels is an add-on designed to optimize your workflow in Blender by displaying installed add-on panels in contextual (pop-up) menus.
+Hotkey Panels is an add-on designed to optimize your workflow in Blender by allowing you to display installed add-on panels in contextual (pop-up) menus.
 
-It automatically detects these panels and allows you to create shortcuts for quick access to your preferred features, without constantly searching through the sidebar. This saves you valuable time and provides a more organized workflow.
+It automatically detects these panels and enables you to create shortcuts for quick access to your favorite features, without constantly searching through the sidebar. This saves you valuable time and provides a more organized workspace.
 
-> **Note**: Only the experimental version is offered here, which may lead to compatibility or stability issues. It is therefore recommended to use it on non-critical projects or make regular backups of your work.
+> **Note**: Only the experimental version is available here, which may lead to compatibility or stability issues. It is therefore recommended for non-critical projects or to ensure regular backups.
 >
 > **Important**: If some add-ons do not include the code required to be handled by Hotkey Panels, I unfortunately cannot fix that.
 >
-> Certain panels are only visible if the conditions set by their original add-on are met (for example, having a specific object selected, being in Edit mode, having an armature, etc.). If a panel that should appear is not showing, make sure those conditions are met in your scene.
+> Some panels are only visible if the conditions set by their original add-on are met (for example, having a specific object selected, being in Edit mode, having an armature, etc.). If a panel that should appear is not showing, please check that you have met all those conditions in your scene.
 
 ---
 
 ## Installation
 
 1. **Download the add-on** (the `.py` file).
-2. Open Blender and go to **`Edit > Preferences > Add-ons`**.
+2. Open Blender, then go to **`Edit > Preferences > Add-ons`**.
 3. Click **`Install`** and select the `.py` file you downloaded.
 4. Finally, enable the plugin in the Add-ons list.
 
@@ -32,67 +32,67 @@ It automatically detects these panels and allows you to create shortcuts for qui
 ## Main Features
 
 - **Custom Keyboard Shortcuts**  
-  Assign keys (or key combinations) to instantly display panels from your favorite add-ons.
+  Assign keys (or key combinations) to instantly display panels from your preferred add-ons.
 
 - **Flexible Shortcut Management**  
-  Enable or disable a shortcut in a single click within the add-on preferences. You can also duplicate or remove a shortcut easily.
+  Enable or disable a shortcut with a single click in the add-on preferences. You can also easily duplicate or remove a shortcut.
 
 - **Automatic Panel Organization**  
-  Panels are organized according to the add-on they come from, making them easier to locate (using the HEADER of each add-on).
+  Panels are categorized by the add-on they come from, making them easier to find (using the HEADER each add-on provides).
 
 - **Custom Icons and Names**  
-  Give each panel its own name and icon for quick recognition.
+  Give each panel a unique name and icon to identify it more quickly.
 
 - **Shortcut Import/Export**  
-  Lets you copy a Hotkey Panel’s configuration to your clipboard and import it with a single click—whether in another Hotkey Panel or another Blender version.  
-  Save or share your settings effortlessly with other users.
+  Allows you to copy a Hotkey Panel’s configuration to your clipboard, then import it with a single click—whether in another Hotkey Panel or on another version of Blender.  
+  Easily save or share your configuration with other users.
 
 ---
 
 ## Panel Display Modes
 
 - **Standard (Stable)**  
-  Displays a traditional context menu when you use the shortcut. You then choose which panel to open among those associated.
+  Displays a traditional context menu when using the shortcut. You then select which panel to open from those associated.
 
 - **Pop-up (Experimental)**  
-  Instantly shows panels in a pop-up menu, positioned according to the settings you define for each panel in the corresponding Hotkey Panel.  
-  > **Note**: This feature is experimental and can exhibit stability or compatibility issues depending on your setup and Blender version.  
-  > It generally works without too many bugs on versions prior to 3.5, but may become unstable starting from Blender 3.6 and above.
+  Immediately shows panels in a pop-up menu, positioned according to the settings defined for each panel in the relevant Hotkey Panel.  
+  > **Note**: This feature is experimental and may have stability or compatibility issues depending on your setup and Blender version.  
+  > It generally works without too many bugs on versions prior to 3.5, but may become unstable from Blender 3.6 and above.
 
 - **Pie Menu (Stable)**  
-  Displays a circular menu containing multiple panels. Ideal for quickly navigating between various categories, with a pagination system if you have more panels than can fit in a single circle.
+  Opens a circular menu that contains multiple panels. Perfect for quickly navigating between different categories, with a pagination system if you have more panels than fit into a single circle.
 
 ---
 
 ## Quick Usage
 
 1. In the **Add-on Preferences**, create a new shortcut by clicking **“Add Hotkey Panel”**.
-2. Select the keys (for example, `Q`, with optional `Ctrl/Alt/Shift`).
-3. Choose the **Execution Mode** among:
-   - **Standard**
-   - **Pop Up**
+2. Select the keys (e.g., `Q`), optionally with `Ctrl/Alt/Shift`.
+3. Choose an **Execution Mode**:  
+   - **Standard**  
+   - **Pop Up**  
    - **Pie Menu**
-4. Select one or more panels to associate with the shortcut, then optionally customize their names, icons, or margins (if using **Pop Up**).
-5. Close the preferences and try out the shortcut in the 3D View.
+4. Select one or more panels to associate with the shortcut, and optionally customize their names, icons, or margins (if using **Pop Up**).
+5. Close Preferences and test your shortcut in the 3D View.
 
 ---
 
 ## Important Notes and Limitations
 
 > **Note**: This feature is experimental and may cause stability or compatibility issues depending on your setup and Blender version.
-
-> **Note**: Only the experimental version is offered here; it may have compatibility or stability problems. It’s recommended to use it for non-critical projects or to back up your work regularly.
-
-> **Important**: If certain add-ons do not have the necessary code to be managed by Hotkey Panels, there’s unfortunately nothing I can do about it.
-
-> Some panels only appear if the conditions set by their original add-on are met (for instance, selecting a specific object, being in Edit mode, or having an armature, etc.). If a panel that should appear isn’t showing up, ensure that these conditions are met in your scene.
+>
+> **Note**: Only the experimental version is provided here, which may lead to compatibility or stability issues. It is recommended for non-critical projects or for regular backups.
+>
+> **Important**: If certain add-ons do not include the required code for Hotkey Panels, there is unfortunately nothing I can do.
+>
+> Some panels will only appear if the conditions from their original add-on are met (for example, an object being selected, using Edit mode, having an armature, etc.). If a panel that should appear is missing, check these conditions are satisfied in your scene.
 
 ---
 
 ## Support and Community
 
-- **Blender Artists Forum**: Share your feedback or bug reports on the [dedicated thread](https://blenderartists.org/t/hotkey-panels-feedback/1542369?u=soee).  
-- **Video Tutorials**: Check out upcoming YouTube videos for a step-by-step demonstration.  
+- **Blender Artists Forum**: Share feedback or bug reports on the [dedicated thread](https://blenderartists.org/t/hotkey-panels-feedback/1542369?u=soee).  
+- **Video Tutorials**: Check upcoming YouTube videos (link to come) for a step-by-step demonstration.  
 - **Other Links**: Find all official resources and links on my [Linktree].
 
 ---
@@ -103,13 +103,13 @@ Feel free to share your feedback and report any issues. Your input helps the add
 
 **Created by**: Soee  
 **Version**: 2.5 (Experimental)  
-**License**: Community
+**License**: Community  
 
 ---
 
 ## **Version Française**
 
-# Add-on **Hotkey Panels** – Version Expérimentale
+# Add-on **Hotkey Panels**
 
 ## Aperçu
 
@@ -143,7 +143,7 @@ Il détecte automatiquement ces panneaux et offre la possibilité de créer des 
   Activez/désactivez un raccourci en un clic dans les préférences de l’add-on. Vous pouvez également dupliquer ou supprimer facilement un raccourci.
 
 - **Organisation Automatique des Panneaux**  
-  Les panneaux sont classés selon l’add-on dont ils proviennent, ce qui facilite leur sélection (fourni avec le HEADER de chaque add-on).
+  Les panneaux sont classés selon l’add-on dont ils proviennent, ce qui facilite leur sélection (basé sur le HEADER de chaque add-on).
 
 - **Icones et Noms Personnalisables**  
   Donnez à chaque panneau un nom et une icône afin de l’identifier plus rapidement.
@@ -161,7 +161,7 @@ Il détecte automatiquement ces panneaux et offre la possibilité de créer des 
 
 - **Pop-up (Expérimental)**  
   Affiche directement les panneaux sous forme de menu pop-up, positionnés selon les réglages définis pour chaque panneau dans le Hotkey panel correspondant.  
-  > Note : Cette fonctionnalité est expérimentale et peut présenter des problèmes de stabilité et de compatibilité selon la configuration et la version de Blender.  
+  > **Note** : Cette fonctionnalité est expérimentale et peut présenter des problèmes de stabilité et de compatibilité selon la configuration et la version de Blender.  
   > Elle fonctionne généralement sans trop de bugs sur les versions antérieures à la 3.5, mais peut être instable à partir de Blender 3.6 et au-dessus.
 
 - **Pie Menu (Stable)**  
@@ -173,9 +173,9 @@ Il détecte automatiquement ces panneaux et offre la possibilité de créer des 
 
 1. Dans les **Préférences de l’add-on**, créez un nouveau raccourci en cliquant sur **“Add Hotkey Panel”**.
 2. Sélectionnez les touches (par exemple, `Q`, avec ou sans `Ctrl/Alt/Shift`).
-3. Choisissez le **Mode d’Exécution** parmi :
-   - **Standard**
-   - **Pop Up**
+3. Choisissez le **Mode d’Exécution** parmi :  
+   - **Standard**  
+   - **Pop Up**  
    - **Pie Menu**
 4. Sélectionnez un ou plusieurs panneaux à associer au raccourci, puis personnalisez au besoin leurs noms, icônes ou marges (si vous utilisez le **Pop Up**).
 5. Quittez les préférences et testez le raccourci dans la Vue 3D.
@@ -184,7 +184,7 @@ Il détecte automatiquement ces panneaux et offre la possibilité de créer des 
 
 ## Points Importants et Limitations
 
-> Note : Cette fonctionnalité est expérimentale et peut présenter des problèmes de stabilité et de compatibilité selon la configuration et la version de Blender.
+> **Note** : Cette fonctionnalité est expérimentale et peut présenter des problèmes de stabilité et de compatibilité selon la configuration et la version de Blender.
 
 > **Note** : Seule la version expérimentale est proposée ici ; elle peut présenter des problèmes de compatibilité et de fiabilité. Il est donc recommandé de l’utiliser sur des projets non critiques ou de sauvegarder régulièrement vos fichiers.
 
