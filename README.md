@@ -2,7 +2,7 @@
 
 ---
 
-# **Eng** **Hotkey Panels** Add-on – Experimental Version
+# **English description** **Hotkey Panels** Add-on
 
 ## Overview
 
@@ -105,7 +105,7 @@ Feel free to share your feedback and report any issues. Your input helps the add
 
 ---
 
-# **Eng** Add-on **Hotkey Panels**
+# **Description Française** Add-on **Hotkey Panels**
 
 ## Aperçu
 
